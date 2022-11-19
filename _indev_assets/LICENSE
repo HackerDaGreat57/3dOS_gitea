@@ -1,41 +1,43 @@
 3dOS General Public License v1.0 | Created on the 13th of November, 2022
-------------------------------------------------------------------------------
-Copyright (c) 2022 3dOS Developer Group.
+--------------------------------------------------------------------------------
+Copyright (c) 2022 3dOS Developers Group.
 
-Everyone is permitted to copy and distribute verbatim copies of this
-license document, but changing it is not allowed.
+Everyone is permitted to copy and distribute verbatim copies of this license 
+document, but changing it is not allowed.
 
 This license is based on the GNU General Public License, version 3.
 
-                                 P̲r̲e̲a̲m̲b̲l̲e̲
+                                   P̲r̲e̲a̲m̲b̲l̲e̲
 
-	The 3dOS General Public License is a free, copyleft license for software
-and other kinds of works. The licenses for most software and other
-practical works are designed to take away your freedom to share and
-change the works. By contrast, the 3dOS General Public License is intended
-to guarantee your freedom to share and change all versions of a work - to
-ensure it remains free for all of its users. We, the 3dOS Developer Group,
-use the 3dOS General Public License for most, if not all, of our software.
+The 3dOS General Public License is a free, copyleft license for software and
+other kinds of works. The licenses for most software and other practical 
+works are designed to take away your freedom to share and change the works. 
+By contrast, the 3dOS General Public License is intended to guarantee your 
+freedom to share and change all versions of a work - to ensure it remains 
+free for all of its users. We, the 3dOS Developers Group, use the 3dOS General 
+Public License for most, if not all, of our software.
 
-  This license is called a "General Public" license because the `public`
-can use this in `any` kind of work. All mentions of `software` and
-`source code` in this document can mean `the final product` and
-`the instructions/recipe/source material for the final product when used for
-licensing products other than software.
+This license is called a "General Public" license because the `public` can 
+use this in `any` kind of work. All mentions of `software` and `source code` 
+in this document can mean `the final product` and `the instructions or recipe or
+source material for the final product`, respectively, when used for licensing
+products other than software. 
 
-  When we speak of free software, we are referring to freedom and price.
-This General Public License is designed to make sure that you:
+When we speak of free software, we are referring to freedom and price. This 
+General Public License is designed to make sure that you:
 1. Can distribute copies of free software.
 2. Recieve source code or can get it if you want it.
 3. That you can change the software or use pieces of it in new free programs.
 4. That you receive source code or can get it if you want it.
-That is the point of the 3dOS operating system, after all - to free
-you of non-free software.
+That is the point of the 3dOS operating system, after all - to free you of 
+non-free software.
 
-  To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights. Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.
+To protect your rights, we need to prevent others from denying you these 
+rights or asking you to surrender the rights. Therefore, you have certain 
+responsibilities if you distribute copies of the software, or if you modify 
+it: responsibilities to respect the freedom of others.
 
-  For example, if you distribute copies of such a program, you must pass on to the recipients the same freedoms that you received. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
-
-  Developers that use the 3dOS GPL protect your rights with two steps:
-1. Assert copyright on the software. 
-2. Offer you this License giving you legal permission to copy, distribute and/or modify it.
+For example, if you distribute copies of such a program, you must pass on to 
+the recipients the same freedoms that you received. You must make sure that 
+they, too, receive or can get the source code. And you must show them these 
+terms so they know their rights.
