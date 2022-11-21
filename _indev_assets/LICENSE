@@ -1,43 +1,43 @@
-3dOS General Public License v1.0 | Created on the 13th of November, 2022        |
---------------------------------------------------------------------------------|
-Copyright (c) 2022 3dOS Developers Group.                                       |
-                                                                                |
-Everyone is permitted to copy and distribute verbatim copies of this license 
+3dOS General Public License v1.0 | Finalized on the 20th of November, 2022
+--------------------------------------------------------------------------------
+Copyright (c) 2022 3dOS Developers Group.
+
+Everyone is permitted to copy and distribute verbatim copies of this license
 document, but changing it is not allowed.
 
-This license is based on the GNU General Public License, version 3.
+This license is based on the MIT License. 3dOS Developers Group does not in any
+way imply that this license is the unmodified, original MIT License.
 
-                                   P̲r̲e̲a̲m̲b̲l̲e̲
+Permission is hereby granted, free of charge, to any entity obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including with no limitations the rights to
+use, copy, modify, merge, publish, distribute, and/or sublicense the Software,
+and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
 
-The 3dOS General Public License is a free, copyleft license for software and
-other kinds of works. The licenses for most software and other practical 
-works are designed to take away your freedom to share and change the works. 
-By contrast, the 3dOS General Public License is intended to guarantee your 
-freedom to share and change all versions of a work - to ensure it remains 
-free for all of its users. We, the 3dOS Developers Group, use the 3dOS General 
-Public License for most, if not all, of our software.
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+2. Any portion of the Software shall not, under any circumstances, be utilized
+   or included in any closed-source software ("Non-Free Software"). Non-Free
+   Software includes products like Microsoft Windows where source code is
+   available, but not free of charge or without endeavorous efforts. Obviously,
+   Non-Free Software also includes products whose source code is not legally
+   available to the general public.
+3. The Software and associated source code files must be fully obtainable to any
+   entity, free of charge and free of authentication. No one should have to
+   present their e-mail address and real name to a server or authority just to
+   look at some source code.
+4. All source code of modifications to the Software must be made publicly
+   available if binary or object forms of the mofifications are available to the
+   general public. Access to the modified Software, in source and binary/object
+   forms, must also be free of charge and free of authentication.
+5. When making source code available to the public, please share it in the
+   preferred format for modification (most often in plaintext form). Blurry
+   photocopies of code is not an appropriate format, for instance.
 
-This license is called a "General Public" license because the `public` can 
-use this in `any` kind of work. All mentions of `software` and `source code` 
-in this document can mean `the final product` and `the instructions or recipe or
-source material for the final product`, respectively, when used for licensing
-products other than software. 
-
-When we speak of free software, we are referring to freedom and price. This 
-General Public License is designed to make sure that you:
-1. Can distribute copies of free software.
-2. Recieve source code or can get it if you want it.
-3. That you can change the software or use pieces of it in new free programs.
-4. That you receive source code or can get it if you want it.
-That is the point of the 3dOS operating system, after all - to free you of 
-non-free software.
-
-To protect your rights, we need to prevent others from denying you these 
-rights or asking you to surrender the rights. Therefore, you have certain 
-responsibilities if you distribute copies of the software, or if you modify 
-it: responsibilities to respect the freedom of others.
-
-For example, if you distribute copies of such a program, you must pass on to 
-the recipients the same freedoms that you received. You must make sure that 
-they, too, receive or can get the source code. And you must show them these 
-terms so they know their rights.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
