@@ -1,4 +1,4 @@
-3dOS Software License v1.0 | Ratified on the 24th of November, 2022 at 7:50 P.M.
+3dOS Software License v1.0 | Ratified on the 24th of November, 2022 at 9:42 P.M.
 --------------------------------------------------------------------------------
 Copyright (c) 2022-present 3dOS Developers Group.
 
@@ -15,28 +15,29 @@ TERMS:
 3. "Free of Authentication" means any entity shall not have to present their
    e-mail address, real name, or any other details to a server or authority in
    order to obtain the Software and/or its source code.
+4. "Non-Free Software" includes products like "Macroshaft Windoze" whose source
+   code is available, but not Free of Charge, Free of Authentication, and/or
+   without endeavorous efforts. Obviously, Non-Free Software includes products
+   whose source code is not legally available to the general public. Non-Free
+   Software also includes software whose binary/object and source code files are
+   not available to the general public Free of Charge and Free of
+   Authentication.
 
 Permission is hereby granted, Free of Charge, to any entity obtaining a copy of
 this software and associated documentation files, to deal in the Software
-without restriction, including with no limitations the rights to use, copy,
+without restriction, including with some limitations the rights to use, copy,
 modify, merge, publish, distribute, and/or sublicense the Software, and to
-permit persons to whom the Software is furnished to do so, subject to the
+permit entities to whom the Software is furnished to do so, subject to the
 following conditions:
 
 1. The above copyright notice and this permission notice shall be included in
    all copies or substantial portions of the Software.
 2. Any portion of the Software shall not, under any circumstances, be utilized
-   or included in any closed-source software ("Non-Free Software"). Non-Free
-   Software includes products like "Macroshaft Windoze" where source code is
-   available, but not Free of Charge or without endeavorous efforts. Obviously,
-   Non-Free Software also includes products whose source code is not legally
-   available to the general public. Non-Free Software also includes software
-   whose binary/object and source code files are not available to the general
-   public Free of Charge and Free of Authentication.
+   or included in any Non-Free Software.
 3. The Software and associated source code files must be fully obtainable to any
    entity, Free of Charge and Free of Authentication.
 4. All source code of modifications to the Software must be made publicly
-   available if binary or object forms of the mofifications are available to the
+   available if binary/object forms of the modifications are available to the
    general public. Access to the modified Software, in source and binary/object
    forms, must also be Free of Charge and Free of Authentication.
 5. When making source code available to the public, please share it in the
@@ -45,7 +46,7 @@ following conditions:
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
