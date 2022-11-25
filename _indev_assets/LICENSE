@@ -1,4 +1,4 @@
-3dOS General Public License v1.0 | Created on the 13th of November, 2022
+3dOS Software License v1.0 | Ratified on the 24th of November, 2022 at 7:42 P.M.
 --------------------------------------------------------------------------------
 Copyright (c) 2022 3dOS Developers Group.
 
@@ -8,7 +8,15 @@ document, but changing it is not allowed.
 This license is based on the MIT License. 3dOS Developers Group does not in any
 way imply that this license is the unmodified, original MIT License.
 
-Permission is hereby granted, free of charge, to any entity obtaining a copy of
+TERMS:
+1. The "Software" is a copy of this software and associated documentation files.
+2. "Free of Charge" means any entity shall retain the right to obtain the
+   Software without having to pay another entity any monetary value.
+3. "Free of Authentication" means any entity shall not have to present their
+   e-mail address, real name, or any other details to a server or authority in
+   order to obtain the Software and/or its source code.
+
+Permission is hereby granted, Free of Charge, to any entity obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
 the Software without restriction, including with no limitations the rights to
 use, copy, modify, merge, publish, distribute, and/or sublicense the Software,
@@ -19,18 +27,18 @@ following conditions:
    all copies or substantial portions of the Software.
 2. Any portion of the Software shall not, under any circumstances, be utilized
    or included in any closed-source software ("Non-Free Software"). Non-Free
-   Software includes products like Macroshaft Windoze where source code is
-   available, but not free of charge or without endeavorous efforts. Obviously,
+   Software includes products like "Macroshaft Windoze" where source code is
+   available, but not Free of Charge or without endeavorous efforts. Obviously,
    Non-Free Software also includes products whose source code is not legally
-   available to the general public.
+   available to the general public. Non-Free Software also includes software
+   whose binary/object and source code files are not available to the general
+   public Free of Charge and Free of Authentication.
 3. The Software and associated source code files must be fully obtainable to any
-   entity, free of charge and free of authentication. No one should have to
-   present their e-mail address, real name, or any other identifying details to
-   a server or authority in order to obtain the Software and/or its source code.
+   entity, Free of Charge and Free of Authentication.
 4. All source code of modifications to the Software must be made publicly
    available if binary or object forms of the mofifications are available to the
    general public. Access to the modified Software, in source and binary/object
-   forms, must also be free of charge and free of authentication.
+   forms, must also be Free of Charge and Free of Authentication.
 5. When making source code available to the public, please share it in the
    preferred format for modification (most often in plaintext form). Blurry
    photocopies of code is not an appropriate format, for instance.
