@@ -30,9 +30,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.2220276"
-     inkscape:cx="270.04301"
-     inkscape:cy="185.3477"
+     inkscape:zoom="1"
+     inkscape:cx="268"
+     inkscape:cy="186.5"
      inkscape:window-width="1366"
      inkscape:window-height="704"
      inkscape:window-x="0"
@@ -68,6 +68,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       id="rect429"
+       width="169.69144"
+       height="119.96732"
+       x="-12.963819"
+       y="-11.918053"
+       style="fill:#111111;fill-opacity:1;stroke-width:0.264583"
+       ry="4.4948163" />
     <text
        xml:space="preserve"
        style="font-size:16.5886px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
