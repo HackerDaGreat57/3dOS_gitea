@@ -3,6 +3,10 @@ Hex-Zip is an experimental file compression program that aims to work with all t
 
 This program's source code is hosted here because it will be included with 3dOS. All programs that will be included with 3dOS pre-installed will be hosted in this repository in their own orphan branches.
 ## How it Works
-This section is being used for planning the program. I already have a clear gist about how it should work in my head, this is the place to write it all down.
-1. Input file is split into 1KB blocks. If the size of the input file in bytes is not a multiple of 1024, the "last" block is filled with zeroes. See image below or [click here](./assets/readme/hzdms1.svg) for more understanding.  
+This section is being used for planning the program. I already have a clear gist about how it should work in my head, this is the place to write it all down. 
+1. Input file is progressively split into 1KiB blocks, as compression moves on from block to block; so after block 1 is done being compressed, then the program looks 1025 bytes ahead and says "OK, this is the end of the second block." Then it compresses that block, looks 1025 bytes ahead, thinks of that point as the end of the third block, and so on. If the size of the input file in bytes is not a multiple of 1024, the "last" block is filled with zeroes. See image below or [click here](./assets/readme/hzdms1.svg) for more understanding.  
+
+All steps after #1 happen block-by-block, not for the whole input file.
+
 <img src="./assets/readme/hzdms1.svg">
+2.
