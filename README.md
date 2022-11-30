@@ -10,4 +10,6 @@ The input file is progressively split into 1KiB blocks, as compression moves on 
 <img src="./assets/readme/hzdms1.svg">
 
 ### How the compression algorithm works (how a block gets compressed)
-1. {type here}
+Click on the number of each step to see what the data looks like at completion of that step.
+[1.](./assets/readme/stage1) Convert the raw data of the block to hexadecimal form (AKA get a hex dump of the block). Store it in memory (it will be about 2 KiB in hex form.)
+2. Convert the hex-dump of the block into base-10 decimal form. Store the result in memory.
