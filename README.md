@@ -23,7 +23,8 @@ How to compile Hex-Zip for your platform. Since it is written in fairly portable
 ### Windows
 When setting paths, remember that **you must not add trailing slashes!** Also, `/` is preferred over `\` for consistency purposes (`\` might not work if you're compiling on a wierd filesystem).
 
+0. The most essential step, hence why I numbered it Step 0: install the mingw64 compiler from the MSYS2 shell by running `pacman -S mingw-w64-x86_64-toolchain` (or `pacman -S mingw-w64-i686-toolchain` if you are using a 32-bit system).
 1. Set your `%HZ_ROOT%` environment variable to the directory where you cloned the Hex-Zip repository.  
-2. Set your `%HZ_COMPILER` environment variable to the root directory of your installation of GCC. Where the `bin/`, `lib/`, and stuff like that directories are. (I'm using msys2, so in my case it would be `C:/some/folder/msys2/mingw64`.)
-3. Open your MINGW64 Shell from the Start Menu. (Or use regular Command Prompt if you know what you're doing.)
-4. Install the packages 
+2. Set your `%HZ_COMPILER` environment variable to the root directory of your installation of GCC. Where the `bin/`, `lib/`, and stuff like that directories are. (I'm using MSYS2, so in my case it would be `C:/some/folder/msys2/mingw64`.)  
+3. Open your MSYS2 MINGW64 Shell from the Start Menu. (Or use regular Command Prompt if you know what you're doing.)  
+4. Install the packages `a`, `a` and `a`.  
