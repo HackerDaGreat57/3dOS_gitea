@@ -16,3 +16,14 @@ The "File" links show what the data looks like at the completion of each step. (
 3. The hard part
 
 (The above text is being worked on. I am conducting early testing with the program.)
+
+## Compiling
+How to compile Hex-Zip for your platform. Since it is written in fairly portable C++ it should compile fine on any machine/compiler that includes C++20 `ncursesw`.
+
+### Windows
+When setting paths, remember that **you must not add trailing slashes!** Also, `/` is preferred over `\` for consistency purposes (`\` might not work if you're compiling on a wierd filesystem).
+
+1. Set your `%HZ_ROOT%` environment variable to the directory where you cloned the Hex-Zip repository.  
+2. Set your `%HZ_COMPILER` environment variable to the root directory of your installation of GCC. Where the `bin/`, `lib/`, and stuff like that directories are. (I'm using msys2, so in my case it would be `C:/some/folder/msys2/mingw64`.)
+3. Open your MINGW64 Shell from the Start Menu. (Or use regular Command Prompt if you know what you're doing.)
+4. Install the packages 
