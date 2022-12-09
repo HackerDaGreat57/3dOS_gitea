@@ -1,12 +1,12 @@
-#Blender++ Makefile for Windows
+#Hex-Zip Makefile for Windows
 
 CPP = g++.exe -D__DEBUG__
 CC = gcc.exe -D__DEBUG__
 WINDRES = windres.exe
-LDLIBS = -lglfw3 -lopengl32 -lglu32 -lgdi32 -luser32 -lkernel32 -lncursesw -lboost_atomic-mt -lboost_chrono-mt -lboost_container-mt -lboost_context-mt -lboost_contract-mt -lboost_coroutine-mt -lboost_date_time-mt -lboost_exception-mt -lboost_fiber-mt -lboost_filesystem-mt -lboost_graph-mt -lboost_iostreams-mt -lboost_json-mt -lboost_locale-mt -lboost_log-mt -lboost_log_setup-mt -lboost_math_c99-mt -lboost_math_c99f-mt -lboost_math_c99l-mt -lboost_math_tr1-mt -lboost_math_tr1f-mt -lboost_math_tr1l-mt -lboost_nowide-mt -lboost_numpy310-mt -lboost_prg_exec_monitor-mt -lboost_program_options-mt -lboost_python310-mt -lboost_random-mt -lboost_regex-mt -lboost_serialization-mt -lboost_stacktrace_noop-mt -lboost_stacktrace_windbg-mt -lboost_stacktrace_windbg_cached-mt -lboost_system-mt -lboost_test_exec_monitor-mt -lboost_thread-mt -lboost_timer-mt -lboost_type_erasure-mt -lboost_unit_test_framework-mt -lboost_wave-mt -lboost_wserialization-mt
-LIBSDIR = -L"%BPP_COMPILER%/mingw64/lib"
-CINCS = -I"%BPP_COMPILER%/mingw64/include" -I"%BPP_COMPILER%\mingw64\include\c++\12.1.0" -I"%BPP_ROOT%/src/include"
-CXXINCS = -I"%BPP_COMPILER%/mingw64/include" -I"%BPP_COMPILER%\mingw64\include\c++\12.1.0" -I"%BPP_ROOT%/src/include"
+LDLIBS = -lgdi32 -luser32 -lkernel32 -lncursesw
+LIBSDIR = -L"%HZ_COMPILER%/mingw64/lib"
+CINCS = -I"%HZ_COMPILER%/mingw64/include" -I"%HZ_COMPILER%\mingw64\include\c++\12.1.0" -I"%HZ_ROOT%/src/include"
+CXXINCS = -I"%HZ_COMPILER%/mingw64/include" -I"%HZ_COMPILER%\mingw64\include\c++\12.1.0" -I"%HZ_ROOT%/src/include"
 FLAGS = -w -Wall -Wextra -pedantic -fpermissive -pg -g3 -Ofast -flto -save-temps -m64
 RM = rm.exe -f
 
