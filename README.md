@@ -23,8 +23,15 @@ How to compile Hex-Zip for your platform. Since it is written in fairly portable
 ### Windows
 When setting paths, remember that **you must not add trailing slashes!** Also, `/` is preferred over `\` for consistency purposes (`\` might not work if you're compiling on a wierd filesystem).
 
-0. The most essential step, hence why I numbered it Step 0: **Install a compiler supporting C++20 and `ncursesw`.** If you're using [MSYS2](https://www.msys2.org/), install the mingw64 compiler from the MSYS2 Shell by running `pacman -S mingw-w64-x86_64-toolchain` (or `pacman -S mingw-w64-i686-toolchain` if you are using a 32-bit system).
+**System Requirements:** Windows 7 x64 or newer  
+**Estimated Disk Space Usage:** have a good 10GiB of space free before following the steps. Your mileage may vary, so don't freak out if your computer says there's only 8GiB free, because it might still work. If it doesn't, take 5 to delete your cat videos.
+
+0. The most essential step, hence why I numbered it Step 0: **Install a compiler supporting C++20 and `ncursesw`.** I recommend using [MSYS2](https://www.msys2.org/). Install the mingw64 compiler from the MSYS2 Shell by running `pacman -S mingw-w64-x86_64-toolchain`. If you're using a compiler other than MSYS2/mingw64 then I assume you know what you're doing since the rest of this tutorial only covers MSYS2/mingw64.  
 1. Set your `%HZ_ROOT%` environment variable to the directory where you cloned the Hex-Zip repository.  
 2. Set your `%HZ_COMPILER` environment variable to the root directory of your installation of GCC. Where the `bin/`, `lib/`, and stuff like that directories are. (I'm using MSYS2, so in my case it would be `C:/some/folder/msys2/mingw64`.)  
-3. Open your MSYS2 MINGW64 Shell from the Start Menu. (Or use regular Command Prompt if you know what you're doing.)  
-4. Install the packages `a`, `a` and `a`.  
+3. Open your MSYS2 MINGW64 Shell. (Or use regular Command Prompt if you know what you're doing.)  
+4. Install the package `pacman -S mingw-w64-x86_64-ncurses --noconfirm`.  
+5. Run `pacman -Syuu` to update all packages. Ya'know, just making sure everything's spotless before we start compilation.  
+6. Run `cd /D %HZ_ROOT%`. (`/D` ensures that the command will work just in case you cloned to a different drive. It'll still work if you do it within `C:/`.)  
+7. Run `scripts/build.win64.bat`. (No, 32-bit is not supported. Download [SecureAble](https://www.grc.com/securable.htm) to make sure that you can or can't install a 64-bit version of Windows. To my surprise, SecureAble helped me find out that a dusty old Dell Vostro 260s was capable of 64-bit computing! Try it and maybe you'll get lucky.)
+8. Done! Your binary is located in `%HZ_ROOT%/bin`. Make sure to copy the *entire* folder when you redistribute your freshly compiled copy or there may be legal trouble.
