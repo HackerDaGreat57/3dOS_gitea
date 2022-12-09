@@ -18,7 +18,7 @@ The "File" links show what the data looks like at the completion of each step. (
 (The above text is being worked on. I am conducting early testing with the program.)
 
 ## Compiling
-How to compile Hex-Zip for your platform. Since it is written in fairly portable C++ it should compile fine on any machine/compiler that includes C++20 `ncursesw`.
+How to compile Hex-Zip for your platform. Since it is written in fairly portable C++ it should compile fine on any machine/compiler that includes C++20 and `ncursesw`.
 
 ### Windows
 When setting paths, remember that **you must not add trailing slashes!** Also, `/` is preferred over `\` for consistency purposes (`\` might not work if you're compiling on a wierd filesystem).
