@@ -1,2 +1,2 @@
 # 3dOS
-This README is being worked on. The file at [`_indev_assets/README.md`](_indev_assets/README.md) will replace this placeholder once [this issue](https://hdg57.eu.org/HackerDaGreat57/3dOS/issues/3) has been closed.
+This README is being worked on. The file at [`_indev_assets/README.md`](_indev_assets/README.md) will replace this placeholder once [this issue](https://gitea.hdg57.eu.org/HackerDaGreat57/3dOS/issues/3) has been closed.
