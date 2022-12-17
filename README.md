@@ -15,7 +15,7 @@ The "File" links show what the data looks like at the completion of each step. (
 2. [File](./assets/readme/stage2) | Convert the hex-dump of the block into base-10 decimal form. Store the result in memory (~3KiB).
 3. The hard part
 
-(The above text is being worked on. I am conducting early testing with the program.)
+(The above text is still being worked on. I am conducting early testing with the program.)
 
 ## Compiling
 How to compile Hex-Zip for your platform. Since it is written in fairly portable C++ it should compile fine on any machine/compiler that includes C++20 and `ncursesw`.
